@@ -1,0 +1,93 @@
+Note: Some of the questions below are not direct questions. I mentioned the question below in a way that the concept is covered as i don't exactly remember the question.
+
+Tell me about yourself under 1 or  2mins
+
+Interview divided into categories based on tools
+
+-----Docker.
+
+1. What kernel feature allows for contanerization or how containers are run
+2. Explain the command docker container run nginx -p 80:80 image nginx -n nginx
+3. Now what happens if i create another container with same host and container port and what to do if i want to use same hostport
+4. One pod is unable to establish connection with another pod, what will you do in that case
+5. Explain the networking types in docker and explain how they are different from each other
+6. When to use host network in docker and what it does
+7. Explain the CMD and ENTRYPOINT and how they are different from each other
+8. Build a Docker image using Dockerfile with Output ls -alh
+9. Now i want the ls as stable and i want to use -ltr (override) how to do that.
+10. Where the docker logs are stored in your organization
+11. How to bind volumes in docker, write command
+12. How do you push image to ECR, or docker hub
+13. How to minimize the size of docker builds
+14. How to build dockerfiles and explain the command
+15. How to create and attach networks to containers
+
+----Kubernetes
+1. What is happening in background when i use kubectl create deployment your-deployment --image=your-image:latest --replicas=3 --port=80
+2. Architecture of kubernetes
+3. What are the stages of pod
+4. Why a pod is in pending stage and what are the possible reasons for that
+5. Why crashloop backoff error occurs and how to prevent it
+6. Why the pod is getting restarted everytime it encounters issue. I dont want the pod to restart how to do that and where i need to add
+7. How to check logs and events
+8. What is deployment
+9. What is the difference between deployment and statefulset and what to use when
+10. Difference between Replicaset and deployment
+11. I am unable to delete a pod how to kill it forecfully and how to check why it is not getting deleted
+12. What are the daily activities you do in kubernetes
+13. Have you implemented any deployment strategies in your company or do you know about any
+
+
+---- Ansible
+1. Did you use ansible
+2. Have you done server patching using ansible
+3. How to do server patching for batches of servers
+4. How the ansible is doing that
+5. Static and dynamic inventory in ansible
+
+--- Jenkins
+1. How jenkins is helping your work in automating the tasks
+2. Code is stored in github and i want to trigger a job whenever a new commit is there how to do that and what are way you can do that
+3. How do you handle secrets in jenkins
+4. A jenkins job is failed how do you check why it is failed
+5. Secrets service and management of secrets in jenkins
+
+-- GIT
+1. What are the commonly used git commands
+2. You merged the code and a merge conflict arised what will you do to resolve
+3. If i change one file in local. I want to update the same in github what are the steps you will do
+4. How to authenticate 
+
+--Terraform
+1. what are the different provisioners in terraform
+2. What is the workflow of terraform
+3. What are the different files you have in terraform your github
+4. What will you do if a current terraform apply is failed how will you get back to previous version
+5. Where do you store state file 
+6. What is the use of statelocking in terraform
+
+
+Extras:
+What are the automations you have done in your project
+What are the commands to check when you are facing issues like you are unable to connect to different server
+
+-----------
+Interview for 39LPA:
+1. Explain your current roles in your project.
+2. How you deploy an application to kubernetes?
+3. How you make sure your code is secure in the production?
+4. What tools you used for security side for both code and infra? What standards/benchmarks you follow?
+5. How and what things do you monitor your application? Which tools you use?
+6. Suppose, you are using different monitoring tools like Prometheus, Azure log analytics, DataDog. You are asked to use the cost effective monitoring tool. How you analyze and how you decide which one can we go with?
+7. How you write your own custom ansible plugins which are not available in internet?
+8. Write a program how do you get the api response from "api.github.com" in display the data/fields?
+9. If you are deploying a group of microservices (multiple microservices) with Helm charts, what are the challenges that we can face?
+10. What is monolithic application? How do you migrate to microservices?
+11. What is your current role in your team and where do you expect YOU in the couple of years?
+
+--------
+
+
+
+
+
